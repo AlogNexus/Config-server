@@ -33,7 +33,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: nishanth881/aws-deploy-meal-plan-service
+        image: sadi820/Config-server-algonexus
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
